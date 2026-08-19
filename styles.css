@@ -114,9 +114,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .btn {
+    display: flex;
+    justify-self: center;
     background-color: #7342d6;
     color: white;
     padding: 12px 24px;
