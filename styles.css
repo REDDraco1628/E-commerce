@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Roboto:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Top Nav Bar */
+
+nav {
+    height: 80px;
+    display: flex;  
+}
+
+.nav__container {
+    width: 100%;
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
