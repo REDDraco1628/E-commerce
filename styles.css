@@ -8,16 +8,19 @@
 }
 
 .red {
-    color: red;
+    color: #7342d6;
 }
 
 img {
     width: 100%;
+    height: 100%;
+    max-height: 50vh;
+    padding: 20px;
 }
 
 h1 {
     font-size: 56px;
-    color: red;
+    color: #7342d6;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -69,7 +72,7 @@ li {
     margin-left: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: red;
+    color: #7342d6;
     font-weight: bold;
     padding: 8px;
 }
@@ -80,10 +83,9 @@ li {
 
 .nav__link--primary {
     font-size: 20px;
-    color: red;
     font-weight: bold;
     border: 2px solid black;
-    border-radius: 4px;   
+    border-radius: 6px;  
 }
 
 .nav__link--primary:hover {
@@ -91,7 +93,7 @@ li {
 }
 
 #landing {
-    background-color: white;
+    background-color: #D7BFDC;
 }
 
 /* Header */
@@ -128,3 +130,23 @@ header {
     border: none;
 }
 
+.header__img--wrapper {
+    padding: 20px;
+}
+
+.container {
+    padding: 56px 0 ;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Highlights */
+
+.highlight__wrapper {
+    display: flex;
+    
+}
