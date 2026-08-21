@@ -138,6 +138,11 @@ header {
     font-size: 20px;
     border-radius: 6px;
     border: none;
+    transition: all 350ms ease;
+}
+
+.btn:hover {
+    transform: scale(0.97);
 }
 
 .header__img--wrapper {
@@ -306,4 +311,32 @@ header {
 
 .book_recent:hover .book__img-recent {
     transform: scale(1.03);
+}
+
+/* explore */
+
+#explore {
+    margin-top: 300px;
+    padding: 20px;
+    height: 300px;
+    background-color: rgba(115, 33, 214, 0.1);
+}
+
+.explore__button--section {
+    display: flex;
+    justify-content: center;
+}
+
+.explore__button {
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #7432d6;
+    padding: 6px;
+    border-radius: 6px;
+    transition: all 350ms ease;
+}
+
+.explore__button:hover {
+    transform: scale(0.97);
 }
