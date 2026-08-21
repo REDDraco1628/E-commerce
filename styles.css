@@ -238,7 +238,7 @@ header {
     padding: 24px;
 }
 
-.book__img {
+.book_img {
     max-height: 360px;
     transition: all 300ms ease;
 }
@@ -247,8 +247,63 @@ header {
     margin-bottom: 8px;
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
 }
 
-.book:hover .book__img {
+.book:hover .book_img {
+    transform: scale(1.03);
+}
+
+.book__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.book__title:hover {
+    text-decoration: none;
+}
+
+.book__ratings {
+    margin-bottom: 8px;
+    color: #fabf2a;
+}
+
+.book__price--normal {
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: #bfbfbf;
+}
+
+
+/* Recent books */
+
+#recent {
+    padding-top: 8vw;
+    height: 1000px;
+}
+
+.books_recent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book__img--wrapper-recent {
+    display: flex;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.book_recent {
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img-recent {
+    height: 360px;
+    transition: all 350ms ease;
+}
+
+.book_recent:hover .book__img-recent {
     transform: scale(1.03);
 }
