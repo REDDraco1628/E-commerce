@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> E-commerce </title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/46057189c5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,10 +15,23 @@
             <div class="nav__container">
             <img class="logo" src="./assets/Library.svg" alt="">
                     <ul class="nav__links">
-                        <li><a href="#" class="nav__link"> Home </a></li>
-                        <li><a href="#" class="nav__link"> Contact </a></li>
+                        <li><a href="#" class="nav__link nav__link--hover"> Home </a></li>
+                        <li><a href="#" class="nav__link nav__link--hover"> Contact </a></li>
                         <li><a href="#" class ="nav__link  nav__link--primary"> Books </a></li>
                     </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list"><a href="#" class="menu__link"> Home </a></li>
+                        <li class="menu__list"><a href="#" class="menu__link"> Contacts </a></li>
+                        <li class="menu__list"><a href="#" class="menu__link no-cursor"> books </a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <Header>
@@ -310,6 +324,26 @@
                 </div>
             </section>
         </main>
+            <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <a href="#">
+                    <img class="footer__img" src="assets/Library.svg" alt="">
+                </a>
+                    <div class="footer__links--row">
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__links"> Home </a></li>
+                            <li><a href="#" class="footer__links no-cursor"> About </a></li>
+                            <li><a href="#" class="footer__links"> Books </a></li>
+                            <li><a href="#" class="footer__links no-cursor"> Contact </a></li>
+                        </ul>
+                    </div>
+                <div class="copyright__row">
+                    <p class="white"> Copyright @ 2026 Library </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     </section>
 </body>
 </html>
